@@ -1,0 +1,299 @@
+header {
+	padding-left: 100px;
+	padding-right: 100px;
+
+}
+
+.text-sobre-image{
+	padding-left: 150px;
+	padding-top: 250px;
+	font-size: 72px;
+	position: relative;
+}
+
+.image-desenho{
+	background-image: url(https://p1.pxfuel.com/preview/945/575/733/drawing-comic-artist-digital.jpg);
+	width: 100%;
+	height: 700px;
+	background-size: cover;
+	filter: brightness(50%);
+	position: absolute;
+}
+
+.imagem-roxa{
+	border-radius: 100%;
+	height: 500px;
+	width: 500px;
+}
+
+.botao-menu {
+	background-color: blue;
+	color: white !important;
+	border: 5px solid blue;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 40px;
+}
+
+.link-menu {
+	padding-right: 35px;
+}
+
+.menu-mobile {
+	display: none;
+}
+
+.botao-menu-mobile {
+	border: 1px solid grey;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 5px;
+}
+
+.menu-reponsivo {
+	display: none;
+}
+
+.botao-menu-mobile-ativo {
+	border: 5px solid grey;
+}
+
+.titulo {
+	font-size: 5em !important;
+}
+
+
+.descricao {
+	font-size: 1.3em ;
+}
+
+.botao-loja {
+	height: 50px;
+}
+
+.imagem-principal {
+	height: 600px;
+}
+
+.bg-gradient {
+	background-image: linear-gradient(to top right, #2937f0, #9f1ae2);
+}
+
+.icone {
+	font-size: 3em;
+}
+.degrade-altura {
+	padding-top: 10rem;
+}
+
+.bg-black{
+	background-color: black;
+}
+
+.texto-descricao{
+	font-size: 24px;
+}
+
+@media (max-width: 320px) {
+  	.menu-monitor {
+  		display: none;
+  	}
+
+  	.menu-mobile {
+  		display: block;
+  	}
+
+  	header {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.imagem-principal {
+		height: 250px;
+	}
+
+	.conteudo-principal {
+		text-align: center !important;
+	    padding-left: unset !important;
+	    margin-left: unset !important;
+	    margin-top: -10px !important;
+	}
+
+	.botao-loja {
+		margin-bottom: 20px;
+	}
+
+	.titulo {
+		font-size: 2.5em !important;
+	}
+	
+	.segunda-imagem {
+		text-align: center !important;
+	}
+
+	.imagem-roxa{
+		border-radius: 100%;
+		height: 150px;
+		width: 150px;
+		margin-left: 50px;
+	}
+
+	.texto-simples{
+		max-width: 100%;
+		flex: auto;
+	}
+
+	.texto-de-imagem{
+		font-size: 34px;
+	}
+
+	.text-sobre-image{
+		padding-left: 70px;
+		padding-top: 250px;
+		position: relative;
+	}
+
+	.descricao {
+		font-size: 0.8em;
+	}
+}
+
+@media (max-width: 576px) and (min-width:  321px) {
+  	.menu-monitor {
+  		display: none;
+  	}
+
+  	.menu-mobile {
+  		display: block;
+  	}
+
+  	header {
+		padding-left: 40px;
+		padding-right: 60px;
+	}
+
+	.titulo {
+		font-size: 3em !important;
+	}
+
+	.imagem-principal {
+		height: 400px;
+	}
+
+	.conteudo-principal {
+		text-align: center !important;
+	    padding-left: unset !important;
+	    margin-left: unset !important;
+	    margin-top: -10px !important;
+	}
+
+	.botao-loja {
+		margin-bottom: 20px;
+	}
+
+	.segunda-imagem {
+		text-align: center !important;
+	}
+
+	.texto-simples{
+		max-width: 100%;
+		flex: auto;
+	}
+
+	.imagem-roxa{
+		border-radius: 100%;
+		height: 250px;
+		width: 250px;
+		margin-left: 60px;
+	}
+
+	.texto-de-imagem{
+		font-size: 34px;
+	}
+
+	.text-sobre-image{
+		padding-left: 100px;
+		padding-top: 250px;
+		position: relative;
+	}
+
+	.descricao {
+		font-size: 0.9em;
+	}
+}
+
+@media (max-width: 768px) and (min-width: 577px) {
+  	.menu-monitor {
+  		display: none;
+  	}
+
+  	.menu-mobile {
+  		display: block;
+  	}
+
+  	header {
+		padding-left: 60px;
+		padding-right: 80px;
+	}
+
+	.conteudo-principal {
+		text-align: center !important;
+		margin-left: unset !important;
+		padding-left: unset !important;
+	}
+
+	.botao-loja {
+		padding-bottom: 10px;
+		height: 60px;
+	}
+
+	.imagem-principal {
+		height: 500px;
+	}
+
+	.mt-cancelar {
+		margin-top: unset !important;
+	}
+
+	.texto-simples{
+		max-width: 100%;
+		flex: auto;
+	}
+    
+	.imagem-roxa{
+		border-radius: 100%;
+		height: 350px;
+		width: 350px;
+		margin-left: 170px;
+	}
+	.descricao {
+		font-size: 1.1em;
+	}
+}
+
+@media (max-width: 992px) and (min-width: 769px) {
+  	
+}
+
+@media (max-width: 1200px) and (min-width: 993px) {
+  	.botao-loja {
+		height: 35px;
+	}
+
+	.imagem-principal {
+		height: 500px;
+	    margin-top: 30px;
+	}
+
+	.titulo {
+		font-size: 3.5em !important;
+	}
+}
+
+@media (min-width: 1201px) {
+  	
+}
